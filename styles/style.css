@@ -8,7 +8,8 @@ body{
 }
 nav{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-between;   
+    padding: 1em;   
 }
 
 footer{
@@ -18,11 +19,21 @@ footer{
    /*padding-right: 9%;*/
    background-color: gray;
    margin-left: -8px;
-    margin-right: -8px;         
+    margin-right: -8px;    
+    padding: 1em;     
 }
 main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+nav>div>a,nav>div>svg,nav>div>button{
+    margin-left: .5em;
+    margin-right: .5em;
+}
+footer>div>a,footer>div>svg,footer>div>button{
+    margin-left: .5em;
+    margin-right: .5em;
 }
