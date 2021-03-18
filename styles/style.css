@@ -15,7 +15,10 @@ footer{
     display: flex;
    justify-content: space-between;
    flex-direction: row;
- 
+   /*padding-right: 9%;*/
+   background-color: gray;
+   margin-left: -8px;
+    margin-right: -8px;         
 }
 main{
     display: flex;
